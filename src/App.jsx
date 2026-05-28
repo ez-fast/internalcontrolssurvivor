@@ -78,13 +78,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Payroll Nightmare',
   agency: 'Bureau of Administrative Turbulence',
   badge: 'PAYROLL',
   story: `
-```
+
 
 An employee appears on payroll records despite retiring 14 months ago.
 
@@ -105,13 +105,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Access Control Disaster',
   agency: 'Federal Office of Questionable Technology Decisions',
   badge: 'IT ACCESS',
   story: `
-```
+
 
 An intern accidentally receives administrator access to a financial reporting system.
 
@@ -129,13 +129,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Travel Voucher Incident',
   agency: 'National Administration of Reimbursable Activities',
   badge: 'TRAVEL',
   story: `
-```
+
 
 A travel voucher claims:
 • $942 for airport snacks
@@ -154,13 +154,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Phantom Vendor',
   agency: 'Office of Strategic Snack Procurement',
   badge: 'PROCUREMENT',
   story: `
-```
+
 
 A vendor called "Strategic Excellence Partners LLC" receives 11 payments.
 
@@ -178,13 +178,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Duplicate Payment Rodeo',
   agency: 'Bureau of Very Busy Accounts Payable',
   badge: 'PROCUREMENT',
   story: `
-```
+
 
 Two invoices with slightly different invoice numbers are paid for the same service.
 
@@ -203,13 +203,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Year-End Spending Sprint',
   agency: 'Department of Last-Minute Obligations',
   badge: 'BUDGET',
   story: `
-```
+
 
 It is September 29.
 
@@ -228,13 +228,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Unsupported Journal Entry',
   agency: 'National Spreadsheet Administration',
   badge: 'FINANCIAL',
   story: `
-```
+
 
 A $19.8 million manual journal entry is posted at 11:58 PM.
 
@@ -253,13 +253,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Stale Reconciliation',
   agency: 'Office of Perpetual Backlogs',
   badge: 'REPORTING',
   story: `
-```
+
 
 The cash reconciliation has not been completed in eight months.
 
@@ -276,13 +276,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Ghost Employee',
   agency: 'Human Capital Harmony Bureau',
   badge: 'PAYROLL',
   story: `
-```
+
 
 A payroll report includes an employee no one has seen since 2021.
 
@@ -301,13 +301,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Excess Overtime',
   agency: 'Federal Bureau of Tired Employees',
   badge: 'PAYROLL',
   story: `
-```
+
 
 One employee records 42 hours of overtime every week.
 
@@ -326,13 +326,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Terminated User Access',
   agency: 'Federal Office of Password Archaeology',
   badge: 'IT ACCESS',
   story: `
-```
+
 
 A terminated employee still has active access to the financial system.
 
@@ -350,13 +350,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Shared Password Club',
   agency: 'Department of Collaborative Login Practices',
   badge: 'IT ACCESS',
   story: `
-```
+
 
 The finance team uses one shared account called FINANCE_MASTER.
 
@@ -374,13 +374,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Grant Drawdown Panic',
   agency: 'Bureau of Grant Optimization',
   badge: 'GRANTS',
   story: `
-```
+
 
 A recipient draws down $2.7 million two days before quarter-end.
 
@@ -399,13 +399,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Subrecipient Monitoring Mystery',
   agency: 'Office of Helpful Pass-Through Funding',
   badge: 'GRANTS',
   story: `
-```
+
 
 A subrecipient has not submitted monitoring reports for a year.
 
@@ -424,13 +424,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Missing Equipment',
   agency: 'National Office of Expensive Laptops',
   badge: 'PROPERTY',
   story: `
-```
+
 
 Inventory records show 37 laptops assigned to employees who retired years ago.
 
@@ -447,13 +447,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Warehouse Surprise',
   agency: 'Federal Storage and Mystery Boxes Agency',
   badge: 'PROPERTY',
   story: `
-```
+
 
 A warehouse count finds 500 extra tablets not recorded in the asset system.
 
@@ -472,13 +472,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Phishing Payment',
   agency: 'Cyber Bureau of Almost Secure Finance',
   badge: 'CYBER',
   story: `
-```
+
 
 The CFO receives an email that appears to be from the agency head.
 
@@ -497,13 +497,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Bank Account Change',
   agency: 'Office of Vendor Banking Adventures',
   badge: 'PROCUREMENT',
   story: `
-```
+
 
 A vendor emails new banking instructions.
 
@@ -522,13 +522,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Cutoff Confusion',
   agency: 'Department of Fiscal Year Acrobatics',
   badge: 'REPORTING',
   story: `
-```
+
 
 Invoices for next year are recorded in the current year.
 
@@ -547,13 +547,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Accrual Amnesia',
   agency: 'Federal Bureau of Forgotten Obligations',
   badge: 'FINANCIAL',
   story: `
-```
+
 
 Services were received before year-end.
 
@@ -572,13 +572,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Unauthorized Purchase Card',
   agency: 'Agency for Tiny Emergency Purchases',
   badge: 'PROCUREMENT',
   story: `
-```
+
 
 A purchase card statement includes:
 • gaming chairs
@@ -597,13 +597,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Missing Contract Approval',
   agency: 'Federal Office of Verbal Authorization',
   badge: 'PROCUREMENT',
   story: `
-```
+
 
 A program office begins work with a contractor before contract approval.
 
@@ -620,13 +620,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Budget Object Class Roulette',
   agency: 'Office of Creative Coding',
   badge: 'BUDGET',
   story: `
-```
+
 
 Training costs are coded as equipment.
 
@@ -644,13 +644,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Management Override',
   agency: 'Department of Executive Urgency',
   badge: 'FINANCIAL',
   story: `
-```
+
 
 A senior official directs staff to bypass normal approval workflows.
 
@@ -667,13 +667,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — No Evidence Review',
   agency: 'Office of Invisible Documentation',
   badge: 'REPORTING',
   story: `
-```
+
 
 A reviewer says they reviewed the reconciliation.
 
@@ -694,13 +694,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Spreadsheet Link Apocalypse',
   agency: 'National Spreadsheet Dependency Center',
   badge: 'REPORTING',
   story: `
-```
+
 
 A financial report depends on 19 linked spreadsheets.
 
@@ -719,13 +719,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Inventory Count Surprise',
   agency: 'Bureau of Tangible Confusion',
   badge: 'PROPERTY',
   story: `
-```
+
 
 Physical inventory finds fewer items than recorded.
 
@@ -742,13 +742,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Improper Advance Payment',
   agency: 'Office of Premature Payments',
   badge: 'PROCUREMENT',
   story: `
-```
+
 
 A vendor receives payment before goods are delivered.
 
@@ -765,13 +765,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Unsupported Cost Allocation',
   agency: 'Bureau of Confident Cost Sharing',
   badge: 'GRANTS',
   story: `
-```
+
 
 Shared costs are allocated across grants using a spreadsheet.
 
@@ -788,13 +788,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Improper Grant Match',
   agency: 'Office of Matching Fund Mysteries',
   badge: 'GRANTS',
   story: `
-```
+
 
 A grantee claims matching funds.
 
@@ -813,13 +813,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Cash Receipt Lag',
   agency: 'Federal Collections Processing Unit',
   badge: 'FINANCIAL',
   story: `
-```
+
 
 Cash receipts are deposited two weeks after receipt.
 
@@ -838,13 +838,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Refund Error',
   agency: 'Department of Overenthusiastic Refunds',
   badge: 'FINANCIAL',
   story: `
-```
+
 
 A customer refund is issued twice.
 
@@ -860,13 +860,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Unrecorded Liability',
   agency: 'Office of Quiet Obligations',
   badge: 'REPORTING',
   story: `
-```
+
 
 Legal counsel reports a probable settlement.
 
@@ -883,13 +883,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Inactive Approver',
   agency: 'Federal Approval Chain Museum',
   badge: 'IT ACCESS',
   story: `
-```
+
 
 Workflow approvals still route to a retired supervisor.
 
@@ -907,13 +907,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — System Change Gone Wild',
   agency: 'Office of Production Surprises',
   badge: 'CYBER',
   story: `
-```
+
 
 A developer pushes a change directly to production.
 
@@ -932,13 +932,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Disaster Recovery Theater',
   agency: 'National Continuity Confidence Office',
   badge: 'CYBER',
   story: `
-```
+
 
 The disaster recovery plan has not been tested in three years.
 
@@ -955,13 +955,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Material Weakness Foreshadowing',
   agency: 'Office of Repeated Findings',
   badge: 'REPORTING',
   story: `
-```
+
 
 The same reconciliation finding appears for the fourth year.
 
@@ -980,13 +980,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Policy Exists, Nobody Knows',
   agency: 'Bureau of Secret Procedures',
   badge: 'REPORTING',
   story: `
-```
+
 
 A control policy exists.
 
@@ -1005,13 +1005,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — No Risk Assessment',
   agency: 'Department of Surprised Leadership',
   badge: 'REPORTING',
   story: `
-```
+
 
 Leadership says fraud risk is low.
 
@@ -1030,13 +1030,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Segregation Disaster',
   agency: 'Office of One-Person Processes',
   badge: 'PROCUREMENT',
   story: `
-```
+
 
 One employee can:
 • create vendors
@@ -1056,13 +1056,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Approval Threshold Bypass',
   agency: 'Bureau of Convenient Splitting',
   badge: 'PROCUREMENT',
   story: `
-```
+
 
 A $95,000 purchase is split into five $19,000 orders.
 
@@ -1080,13 +1080,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Misstated Useful Life',
   agency: 'Federal Depreciation Guessing Office',
   badge: 'PROPERTY',
   story: `
-```
+
 
 A system with a 3-year useful life is recorded as 30 years.
 
@@ -1103,13 +1103,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Bad Estimate Review',
   agency: 'Office of Wild Assumptions',
   badge: 'FINANCIAL',
   story: `
-```
+
 
 An allowance estimate changes by $14 million.
 
@@ -1128,13 +1128,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Interface Failure',
   agency: 'Office of Systems That Almost Talk',
   badge: 'IT ACCESS',
   story: `
-```
+
 
 The procurement system sends data to the accounting system nightly.
 
@@ -1152,13 +1152,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Suspense Account Swamp',
   agency: 'National Office of Accounting Purgatory',
   badge: 'FINANCIAL',
   story: `
-```
+
 
 A suspense account contains $8.6 million.
 
@@ -1177,13 +1177,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Unsupported Interagency Agreement',
   agency: 'Department of Friendly Transfers',
   badge: 'BUDGET',
   story: `
-```
+
 
 An interagency agreement is recorded without signed support.
 
@@ -1200,13 +1200,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Incomplete Population',
   agency: 'Office of Sample Selection Surprises',
   badge: 'REPORTING',
   story: `
-```
+
 
 Internal control testing uses a population extract.
 
@@ -1225,13 +1225,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Control Performed Late',
   agency: 'Federal Bureau of Eventually Reviewed Things',
   badge: 'REPORTING',
   story: `
-```
+
 
 A monthly review control is performed five months late.
 
@@ -1249,13 +1249,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Reviewer Lacks Competence',
   agency: 'Office of Rubber Stamp Excellence',
   badge: 'REPORTING',
   story: `
-```
+
 
 A complex actuarial estimate is reviewed by someone who says:
 “I do not know what an actuarial is, but the spreadsheet opened.”
@@ -1270,13 +1270,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Missing Evidence Retention',
   agency: 'National Records Maybe Center',
   badge: 'REPORTING',
   story: `
-```
+
 
 A control was performed.
 
@@ -1295,13 +1295,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Inaccurate Performance Data',
   agency: 'Office of Metrics That Seem Fine',
   badge: 'REPORTING',
   story: `
-```
+
 
 A performance report says 98% of payments were timely.
 
@@ -1318,13 +1318,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Unapproved System Access Role',
   agency: 'Agency for Role Explosion',
   badge: 'IT ACCESS',
   story: `
-```
+
 
 A new access role called SUPER_APPROVER is created.
 
@@ -1342,13 +1342,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Improper Revenue Recognition',
   agency: 'Department of Optimistic Collections',
   badge: 'FINANCIAL',
   story: `
-```
+
 
 Revenue is recorded before eligibility criteria are met.
 
@@ -1365,13 +1365,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Incomplete Disclosure',
   agency: 'Federal Notes to Financial Statements Bureau',
   badge: 'REPORTING',
   story: `
-```
+
 
 A major accounting change is implemented.
 
@@ -1388,13 +1388,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Improper User Provisioning',
   agency: 'Office of Access Request Adventures',
   badge: 'IT ACCESS',
   story: `
-```
+
 
 A new employee gets financial system access before supervisor approval.
 
@@ -1411,13 +1411,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Unreviewed Exception Report',
   agency: 'Bureau of Ignored Red Flags',
   badge: 'REPORTING',
   story: `
-```
+
 
 An exception report identifies 142 unusual transactions.
 
@@ -1436,13 +1436,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Grant Closeout Delay',
   agency: 'Office of Never-Ending Awards',
   badge: 'GRANTS',
   story: `
-```
+
 
 A grant ended 18 months ago.
 
@@ -1461,13 +1461,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Travel Approval After Travel',
   agency: 'National Office of Reverse Authorization',
   badge: 'TRAVEL',
   story: `
-```
+
 
 A travel authorization is approved three days after the trip ends.
 
@@ -1484,13 +1484,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Unsupported Training Expense',
   agency: 'Bureau of Professional Development Surprises',
   badge: 'TRAVEL',
   story: `
-```
+
 
 A training voucher includes a conference in a beach resort.
 
@@ -1509,13 +1509,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Receivable Aging Ignored',
   agency: 'Office of Collect Eventually',
   badge: 'FINANCIAL',
   story: `
-```
+
 
 Accounts receivable aging shows balances over 720 days old.
 
@@ -1532,13 +1532,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Improper Write-Off',
   agency: 'Federal Office of Disappearing Balances',
   badge: 'FINANCIAL',
   story: `
-```
+
 
 A $3.1 million receivable is written off.
 
@@ -1555,13 +1555,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Unsupported Estimate Change',
   agency: 'Bureau of Accounting Guesswork',
   badge: 'REPORTING',
   story: `
-```
+
 
 Management changes a significant estimate days before reporting.
 
@@ -1578,13 +1578,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Noncompliant Purchase',
   agency: 'Office of Regulation Optional Procurement',
   badge: 'PROCUREMENT',
   story: `
-```
+
 
 A program office buys specialized equipment without required competition.
 
@@ -1601,13 +1601,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Control Owner Confusion',
   agency: 'Department of Everyone Thought Someone Else Did It',
   badge: 'REPORTING',
   story: `
-```
+
 
 A key control fails.
 
@@ -1625,13 +1625,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Evidence Does Not Match Control',
   agency: 'Office of Almost Relevant Support',
   badge: 'REPORTING',
   story: `
-```
+
 
 Testing asks for evidence of supervisory review.
 
@@ -1650,13 +1650,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Improper Capitalization',
   agency: 'Federal Bureau of Expense Identity Crisis',
   badge: 'PROPERTY',
   story: `
-```
+
 
 Routine maintenance costs are capitalized as assets.
 
@@ -1673,13 +1673,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Untested Service Organization Controls',
   agency: 'Office of Outsourced Confidence',
   badge: 'IT ACCESS',
   story: `
-```
+
 
 A key financial process relies on a service provider.
 
@@ -1698,13 +1698,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Untimely Corrective Action',
   agency: 'Bureau of Findings That Age Gracefully',
   badge: 'REPORTING',
   story: `
-```
+
 
 A corrective action plan has been open for 34 months.
 
@@ -1723,13 +1723,13 @@ choices: [
 ],
 }),
 
-```
+
 makeScenario({
   title: 'Internal Controls Survivor — Cash Count Surprise',
   agency: 'Office of Petty Cash Mysteries',
   badge: 'FINANCIAL',
   story: `
-```
+
 
 A surprise petty cash count finds:
 • $88 missing
@@ -1752,7 +1752,7 @@ choices: [
 const getRandomScenario = (usedIds = []) => {
 const available = scenarios.filter(s => !usedIds.includes(s.id));
 
-```
+
 if (available.length === 0) {
   return null;
 }
@@ -1763,7 +1763,7 @@ return {
   ...selected,
   choices: shuffle(selected.choices),
 };
-```
+
 
 };
 
@@ -1783,7 +1783,7 @@ return saved ? JSON.parse(saved) : [];
 const chooseAnswer = (choice) => {
 play('click');
 
-```
+
 if (choice.correct) {
   play('success');
 
@@ -1795,7 +1795,7 @@ if (choice.correct) {
   setResult({
     success: true,
     text: `
-```
+
 
 CONTROL EFFECTIVE
 
@@ -1810,7 +1810,7 @@ ${choice.assertion}
 } else {
 play('fail');
 
-```
+
   setScore(prev => ({
     ...prev,
     incorrect: prev.incorrect + 1
@@ -1819,7 +1819,7 @@ play('fail');
   setResult({
     success: false,
     text: `
-```
+
 
 CONTROL FAILURE
 
@@ -1841,7 +1841,7 @@ const nextScenario = () => {
 const updatedUsed = [...usedScenarioIds, scenario.id];
 const next = getRandomScenario(updatedUsed);
 
-```
+
 setUsedScenarioIds(updatedUsed);
 setResult(null);
 
@@ -1851,7 +1851,7 @@ if (!next) {
 }
 
 setScenario(next);
-```
+
 
 };
 
@@ -1859,7 +1859,7 @@ const saveToLeaderboard = () => {
 const total = score.correct + score.incorrect;
 const accuracy = total === 0 ? 0 : Math.round((score.correct / total) * 100);
 
-```
+
 const entry = {
   name: playerName.trim() || 'Anonymous',
   correct: score.correct,
@@ -1876,14 +1876,14 @@ const updated = [...leaderboard, entry]
 setLeaderboard(updated);
 localStorage.setItem('icsLeaderboard', JSON.stringify(updated));
 setHasSavedScore(true);
-```
+
 
 };
 
 const startNewGame = () => {
 const first = getRandomScenario([]);
 
-```
+
 setUsedScenarioIds([]);
 setScenario(first);
 setScore({ correct: 0, incorrect: 0 });
@@ -1891,7 +1891,7 @@ setResult(null);
 setSessionComplete(false);
 setPlayerName('');
 setHasSavedScore(false);
-```
+
 
 };
 
@@ -1899,7 +1899,7 @@ if (sessionComplete) {
 const total = score.correct + score.incorrect;
 const accuracy = total === 0 ? 0 : Math.round((score.correct / total) * 100);
 
-```
+
 return (
   <div className="min-h-screen bg-slate-950 text-white p-6 flex items-center justify-center">
     <div className="w-full max-w-4xl bg-slate-900 border border-cyan-500/20 rounded-[32px] p-8 shadow-2xl">
@@ -1983,7 +1983,7 @@ return (
     </div>
   </div>
 );
-```
+
 
 }
 
@@ -2000,7 +2000,7 @@ backgroundImage:
          className="h-20 md:h-24 object-contain"
        /> </div>
 
-```
+
     <div className="text-left md:text-right">
       <div className="text-cyan-300 font-black tracking-widest text-sm uppercase">
         ProScopeo Training Lab
@@ -2137,7 +2137,7 @@ backgroundImage:
     </div>
   </div>
 </div>
-```
+
 
 );
 }
