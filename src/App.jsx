@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 
+// =========================================
+// INTERNAL CONTROLS SURVIVOR
+// =========================================
+
 export default function InternalControlsSurvivor() {
 
   // =========================================
@@ -18,7 +22,7 @@ export default function InternalControlsSurvivor() {
   };
 
   // =========================================
-  // RANDOM SCENARIOS
+  // SCENARIOS
   // =========================================
   const scenarios = [
 
@@ -26,48 +30,49 @@ export default function InternalControlsSurvivor() {
     // PROCUREMENT
     // =====================================
     {
-      title: "Internal Controls Survivor — Procurement Chaos",
-      agency: "Department of Extremely Important Purchasing",
-      comic: "/images/angry-spouse.png",
+      title: 'Internal Controls Survivor — Procurement Chaos',
+      agency: 'Department of Extremely Important Purchasing',
+      comic: '/assets/comics/executive-chaos.png',
+      badge: 'PROCUREMENT',
 
       story: `
 A contracting officer approves a $4.2 million invoice.
 
 Three minutes later someone notices:
-the vendor name is misspelled,
-the invoice number already appeared last month,
-and the approving official is currently on vacation in Aruba.
+• the vendor name is misspelled
+• the invoice already appeared last month
+• the approving official is currently on vacation in Aruba
 
 Meanwhile, your Deputy CFO quietly whispers:
-'Please tell me someone reviewed this.'
+"Please tell me someone reviewed this."
       `,
 
       spouse:
-        "Your fictional federal agency director begins stress-eating trail mix directly from the container.",
+        'The fictional agency director begins stress-eating trail mix directly from the container.',
 
       dog:
-        "The office support dog senses audit risk and leaves the room.",
+        'The office support dog senses audit risk and leaves the room immediately.',
 
       question:
-        "Which control would BEST reduce this risk?",
+        'Which control would BEST reduce this risk?',
 
       choices: [
         {
-          text: "Independent invoice review and 3-way match before payment approval",
+          text: 'Independent invoice review and 3-way match before payment approval',
           correct: true,
-          assertion: "Accuracy / Occurrence"
+          assertion: 'Accuracy / Occurrence'
         },
 
         {
-          text: "Allow approvers to self-certify invoices verbally",
+          text: 'Allow approvers to verbally certify invoices',
           correct: false,
-          assertion: "No control"
+          assertion: 'No meaningful control activity'
         },
 
         {
-          text: "Increase office motivational posters",
+          text: 'Increase motivational posters in Accounts Payable',
           correct: false,
-          assertion: "Absolutely not COSO compliant"
+          assertion: 'Absolutely not COSO compliant'
         }
       ]
     },
@@ -76,58 +81,60 @@ Meanwhile, your Deputy CFO quietly whispers:
     // PAYROLL
     // =====================================
     {
-      title: "Internal Controls Survivor — Payroll Nightmare",
-      agency: "Bureau of Administrative Turbulence",
-      comic: "/images/exploding-pipe.png",
+      title: 'Internal Controls Survivor — Payroll Nightmare',
+      agency: 'Bureau of Administrative Turbulence',
+      comic: '/assets/comics/payroll-disaster.png',
+      badge: 'PAYROLL',
 
       story: `
 An employee appears on payroll records despite retiring 14 months ago.
 
 Oddly, they also received:
-three retention bonuses,
-two travel reimbursements,
-and access to the building gym.
+• three retention bonuses
+• two travel reimbursements
+• access to the building gym
 
 Nobody is entirely sure who owns payroll reconciliation responsibilities.
       `,
 
       spouse:
-        "The HR Director stares silently into the distance like a Vietnam flashback just started.",
+        'The HR Director stares silently into the distance like a Vietnam flashback just started.',
 
       dog:
-        "The office dog refuses direct eye contact with Accounting.",
+        'The office dog refuses direct eye contact with Accounting.',
 
       question:
-        "Which assertion is MOST at risk?",
+        'Which assertion is MOST at risk?',
 
       choices: [
         {
-          text: "Occurrence / Validity",
+          text: 'Occurrence / Validity',
           correct: true,
-          assertion: "Occurrence"
+          assertion: 'Occurrence'
         },
 
         {
-          text: "Presentation",
+          text: 'Presentation',
           correct: false,
-          assertion: "Incorrect"
+          assertion: 'Incorrect assertion'
         },
 
         {
-          text: "Color coordination",
+          text: 'Color coordination',
           correct: false,
-          assertion: "Not GAO approved"
+          assertion: 'Not recognized by GAO'
         }
       ]
     },
 
     // =====================================
-    // IT ACCESS
+    // ACCESS CONTROL
     // =====================================
     {
-      title: "Internal Controls Survivor — Access Control Disaster",
-      agency: "Federal Office of Questionable Technology Decisions",
-      comic: "/images/plumber-cartoon.png",
+      title: 'Internal Controls Survivor — Access Control Disaster',
+      agency: 'Federal Office of Questionable Technology Decisions',
+      comic: '/assets/comics/intern-admin.png',
+      badge: 'IT ACCESS',
 
       story: `
 An intern accidentally receives administrator access
@@ -140,31 +147,31 @@ except for renaming several production servers after Marvel characters.
       `,
 
       spouse:
-        "The CIO begins using phrases like 'career limiting event.'",
+        'The CIO begins using phrases like “career limiting event.”',
 
       dog:
-        "The office dog barks every time someone says 'shared password.'",
+        'The office dog barks every time someone says “shared password.”',
 
       question:
-        "What is the BEST preventive control?",
+        'What is the BEST preventive control?',
 
       choices: [
         {
-          text: "Role-based access approvals with quarterly reviews",
+          text: 'Role-based access approvals with quarterly reviews',
           correct: true,
-          assertion: "Authorization"
+          assertion: 'Authorization'
         },
 
         {
-          text: "Hope nobody notices",
+          text: 'Hope nobody notices',
           correct: false,
-          assertion: "Weak control environment"
+          assertion: 'Weak control environment'
         },
 
         {
-          text: "Give everyone admin access equally",
+          text: 'Give everyone admin access equally',
           correct: false,
-          assertion: "Chaos framework"
+          assertion: 'Chaos framework'
         }
       ]
     },
@@ -173,53 +180,54 @@ except for renaming several production servers after Marvel characters.
     // TRAVEL
     // =====================================
     {
-      title: "Internal Controls Survivor — Travel Voucher Incident",
-      agency: "National Administration of Reimbursable Activities",
-      comic: "/images/terrified-dog.png",
+      title: 'Internal Controls Survivor — Travel Voucher Incident',
+      agency: 'National Administration of Reimbursable Activities',
+      comic: '/assets/comics/terrified-office-dog.png',
+      badge: 'TRAVEL',
 
       story: `
 A travel voucher claims:
-$942 for airport snacks,
-$611 for taxi rides,
-and one receipt simply labeled:
-'emotional support burrito.'
+• $942 for airport snacks
+• $611 for taxi rides
+• one receipt simply labeled:
+  “emotional support burrito”
 
 The approving official signs everything in under seven seconds.
       `,
 
       spouse:
-        "The finance office collectively enters the bargaining stage of grief.",
+        'The finance office collectively enters the bargaining stage of grief.',
 
       dog:
-        "The office dog hears the word 'reimbursement' and hides under a desk.",
+        'The office dog hears the word reimbursement and hides under a desk.',
 
       question:
-        "Which control activity is MOST appropriate?",
+        'Which control activity is MOST appropriate?',
 
       choices: [
         {
-          text: "Detailed supervisory review of supporting documentation",
+          text: 'Detailed supervisory review of supporting documentation',
           correct: true,
-          assertion: "Accuracy"
+          assertion: 'Accuracy'
         },
 
         {
-          text: "Approve faster to improve morale",
+          text: 'Approve faster to improve morale',
           correct: false,
-          assertion: "Material weakness"
+          assertion: 'Material weakness'
         },
 
         {
-          text: "Replace receipts with handwritten promises",
+          text: 'Replace receipts with handwritten promises',
           correct: false,
-          assertion: "Catastrophically noncompliant"
+          assertion: 'Catastrophically noncompliant'
         }
       ]
     }
   ];
 
   // =========================================
-  // RANDOMIZE START
+  // RANDOM START
   // =========================================
   const randomScenario =
     scenarios[Math.floor(Math.random() * scenarios.length)];
@@ -227,17 +235,17 @@ The approving official signs everything in under seven seconds.
   const [scenario, setScenario] = useState(randomScenario);
 
   // =========================================
-  // GAME STATE
+  // SCORE
   // =========================================
-  const [result, setResult] = useState(null);
-
   const [score, setScore] = useState({
     correct: 0,
     incorrect: 0
   });
 
+  const [result, setResult] = useState(null);
+
   // =========================================
-  // CHOICE ENGINE
+  // ANSWER ENGINE
   // =========================================
   const chooseAnswer = (choice) => {
 
@@ -259,7 +267,7 @@ CONTROL EFFECTIVE
 
 Excellent work.
 
-The control properly addresses the risk and supports the relevant assertion.
+The selected control appropriately addresses the identified risk and supports the related assertion.
 
 Assertion:
 ${choice.assertion}
@@ -280,12 +288,12 @@ ${choice.assertion}
         text: `
 CONTROL FAILURE
 
-OIG would like a word.
+The OIG would like a word.
 
 This response would likely result in:
-- audit findings
-- management comments
-- painful remediation meetings
+• audit findings
+• remediation meetings
+• uncomfortable Congressional questions
 
 Assertion impact:
 ${choice.assertion}
@@ -303,7 +311,6 @@ ${choice.assertion}
       scenarios[Math.floor(Math.random() * scenarios.length)];
 
     setScenario(newScenario);
-
     setResult(null);
   };
 
@@ -312,78 +319,89 @@ ${choice.assertion}
   // =========================================
   return (
 
-    <div className="min-h-screen bg-slate-950 text-white p-6 flex items-center justify-center">
+    <div
+      className="min-h-screen bg-cover bg-center text-white p-6"
+      style={{
+        backgroundImage:
+          "linear-gradient(rgba(2,6,23,0.92), rgba(2,6,23,0.95)), url('/assets/backgrounds/control-room.jpg')"
+      }}
+    >
 
-      <div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
 
         {/* ================================= */}
-        {/* MAIN PANEL */}
+        {/* MAIN STORY PANEL */}
         {/* ================================= */}
-        <div className="bg-slate-900 border border-slate-700 rounded-3xl p-8 flex flex-col min-h-[750px]">
+        <div className="backdrop-blur-xl bg-slate-900/80 border border-cyan-500/20 rounded-[32px] p-8 shadow-2xl flex flex-col min-h-[780px]">
 
-          {/* TITLE */}
-          <h1 className="text-4xl font-black text-cyan-400 mb-3">
-            {scenario.title}
-          </h1>
+          {/* HEADER */}
+          <div className="mb-8">
 
-          {/* AGENCY */}
-          <div className="text-slate-400 mb-6">
-            Agency: {scenario.agency}
+            <div className="inline-flex items-center bg-cyan-500/20 border border-cyan-400/30 text-cyan-300 px-4 py-2 rounded-full text-sm font-bold tracking-widest mb-4">
+              {scenario.badge}
+            </div>
+
+            <h1 className="text-5xl font-black leading-tight text-white mb-4">
+              {scenario.title}
+            </h1>
+
+            <div className="text-slate-400 text-lg">
+              Agency: {scenario.agency}
+            </div>
+
           </div>
 
-          {/* STORY */}
-          <div className="bg-slate-800/70 rounded-2xl p-6 mb-6">
+          {/* STORY BOX */}
+          <div className="bg-slate-800/60 border border-slate-700 rounded-3xl p-7 mb-6 shadow-xl">
 
-            <div className="text-slate-200 whitespace-pre-line leading-8 text-lg">
+            <div className="text-slate-100 whitespace-pre-line leading-9 text-xl">
               {scenario.story}
             </div>
 
           </div>
 
-          {/* SPOUSE */}
-          <div className="bg-purple-500/10 border border-purple-400 rounded-2xl p-4 mb-4">
+          {/* EXECUTIVE REACTION */}
+          <div className="bg-purple-500/10 border border-purple-400/30 rounded-3xl p-5 mb-4">
 
-            <div className="text-purple-300 font-bold mb-2">
+            <div className="text-purple-300 font-black tracking-wide mb-2">
               😬 EXECUTIVE REACTION
             </div>
 
-            <div className="text-slate-300 text-sm">
+            <div className="text-slate-300 leading-7">
               {scenario.spouse}
             </div>
 
           </div>
 
-          {/* DOG */}
-          <div className="bg-blue-500/10 border border-blue-400 rounded-2xl p-4 mb-6">
+          {/* DOG STATUS */}
+          <div className="bg-blue-500/10 border border-blue-400/30 rounded-3xl p-5 mb-8">
 
-            <div className="text-blue-300 font-bold mb-2">
+            <div className="text-blue-300 font-black tracking-wide mb-2">
               🐶 OFFICE DOG STATUS
             </div>
 
-            <div className="text-slate-300 text-sm">
+            <div className="text-slate-300 leading-7">
               {scenario.dog}
             </div>
 
           </div>
 
           {/* QUESTION */}
-          <div className="text-2xl font-black text-yellow-300 mb-6">
+          <div className="text-3xl font-black text-yellow-300 mb-8 leading-tight">
             {scenario.question}
           </div>
 
-          {/* PUSH CONTENT */}
           <div className="flex-grow"></div>
 
-          {/* RESULT */}
+          {/* RESULT PANEL */}
           {result && (
-
-            <div className={`rounded-2xl p-5 mb-6 border
+            <div className={`rounded-3xl p-6 mb-6 border shadow-lg
               ${result.success
-                ? 'bg-green-500/10 border-green-400'
-                : 'bg-red-500/10 border-red-400'}
+                ? 'bg-green-500/10 border-green-400/40'
+                : 'bg-red-500/10 border-red-400/40'}
             `}>
 
-              <div className="whitespace-pre-line leading-7 text-slate-200">
+              <div className="whitespace-pre-line leading-8 text-slate-100 text-lg">
                 {result.text}
               </div>
 
@@ -400,9 +418,13 @@ ${choice.assertion}
                 <button
                   key={i}
                   onClick={() => chooseAnswer(choice)}
-                  className="w-full p-5 bg-slate-800 hover:bg-slate-700 border border-slate-600 rounded-2xl text-left font-bold text-lg transition-all duration-200 hover:scale-[1.01]"
+                  className="w-full text-left p-6 rounded-3xl border border-slate-600 bg-slate-800/80 hover:bg-cyan-500/10 hover:border-cyan-400 transition-all duration-300 hover:scale-[1.01] shadow-lg"
                 >
-                  {choice.text}
+
+                  <div className="text-xl font-bold text-white">
+                    {choice.text}
+                  </div>
+
                 </button>
 
               ))}
@@ -413,7 +435,7 @@ ${choice.assertion}
 
             <button
               onClick={nextScenario}
-              className="w-full p-5 bg-cyan-600 hover:bg-cyan-500 rounded-2xl font-black text-lg transition-all duration-200"
+              className="w-full p-6 bg-cyan-500 hover:bg-cyan-400 rounded-3xl font-black text-xl tracking-wide transition-all duration-300 hover:scale-[1.01] shadow-2xl"
             >
               NEXT SCENARIO
             </button>
@@ -423,38 +445,45 @@ ${choice.assertion}
         </div>
 
         {/* ================================= */}
-        {/* COMIC PANEL */}
+        {/* VISUAL PANEL */}
         {/* ================================= */}
-        <div className="bg-slate-900 border border-slate-700 rounded-3xl p-8 flex flex-col items-center justify-center min-h-[750px]">
+        <div className="backdrop-blur-xl bg-slate-900/80 border border-cyan-500/20 rounded-[32px] p-8 shadow-2xl flex flex-col items-center justify-center min-h-[780px]">
 
-          <img
-            src={scenario.comic}
-            alt="comic"
-            className="w-full max-w-md object-contain animate-float"
-          />
+          {/* IMAGE */}
+          <div className="relative mb-10">
 
-          {/* SCORE */}
-          <div className="mt-10 w-full max-w-sm">
+            <div className="absolute inset-0 bg-cyan-400/20 blur-3xl rounded-full"></div>
 
-            <div className="bg-slate-800 rounded-2xl p-5 mb-4 text-center">
+            <img
+              src={scenario.comic}
+              alt="comic"
+              className="relative z-10 w-full max-w-lg object-contain drop-shadow-[0_0_40px_rgba(34,211,238,0.35)] animate-float"
+            />
 
-              <div className="text-green-300 text-4xl font-black">
+          </div>
+
+          {/* SCORE CARDS */}
+          <div className="grid grid-cols-2 gap-5 w-full max-w-lg">
+
+            <div className="bg-slate-800/80 border border-green-400/20 rounded-3xl p-6 text-center shadow-xl">
+
+              <div className="text-5xl font-black text-green-300 mb-2">
                 {score.correct}
               </div>
 
-              <div className="text-slate-400 text-sm">
+              <div className="text-slate-400 tracking-widest text-sm font-bold">
                 CONTROLS SAVED
               </div>
 
             </div>
 
-            <div className="bg-slate-800 rounded-2xl p-5 text-center">
+            <div className="bg-slate-800/80 border border-red-400/20 rounded-3xl p-6 text-center shadow-xl">
 
-              <div className="text-red-300 text-4xl font-black">
+              <div className="text-5xl font-black text-red-300 mb-2">
                 {score.incorrect}
               </div>
 
-              <div className="text-slate-400 text-sm">
+              <div className="text-slate-400 tracking-widest text-sm font-bold">
                 AUDIT FINDINGS
               </div>
 
