@@ -1617,7 +1617,26 @@ ${choice.assertion}
           "linear-gradient(rgba(2,6,23,0.92), rgba(2,6,23,0.95)), url('/assets/backgrounds/control-room.jpg')"
       }}
     >
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
+       <div className="mb-8 flex flex-col md:flex-row md:items-center md:justify-between gap-5">
+    <div>
+      <img
+        src="/assets/logos/proscopeo.png"
+        alt="ProScopeo"
+        className="h-20 md:h-24 object-contain"
+      />
+    </div>
+
+    <div className="text-left md:text-right">
+      <div className="text-cyan-300 font-black tracking-widest text-sm uppercase">
+        ProScopeo Training Lab
+      </div>
+      <div className="text-slate-300 text-lg">
+        Internal Controls Survivor
+      </div>
+    </div>
+  </div>
+
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
 
         <div className="backdrop-blur-xl bg-slate-900/80 border border-cyan-500/20 rounded-[32px] p-8 shadow-2xl flex flex-col min-h-[780px]">
           <div className="mb-8">
