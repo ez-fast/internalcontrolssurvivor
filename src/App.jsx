@@ -98,7 +98,7 @@ Nobody is entirely sure who owns payroll reconciliation responsibilities.
       `,
 
       spouse:
-        'The HR Director stares silently into the distance like a Vietnam flashback just started.',
+        'The HR Director stares silently into the distance like a scary flashback just started.',
 
       dog:
         'The office dog refuses direct eye contact with Accounting.',
